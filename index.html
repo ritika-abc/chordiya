@@ -56,13 +56,22 @@
 	<!-- Home
 	================================================== -->
 
-
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Clients</a>
+		<a href="#">Contact</a>
+	  </div>
+	  
+	 
+	  <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
 
 	<a href="#" id="arrow_left"></a>
 	<a href="#" id="arrow_right"></a>
 	<div id="maximage">
-		<img src="images/1.jpg" alt="" />
+		<!-- <img src="images/1.jpg" alt="" /> -->
 		<img src="images/2.jpg" alt="" />
 		<img src="images/3.jpg" alt="" />
 	</div>
@@ -120,13 +129,20 @@
 	</div>
 
 
-	<div id="cbp-so-scroller" class="cbp-so-scroller">
+	<div id="cbp-so-scroller" style="background-color: #202020;" class="cbp-so-scroller">
+<!-- 
+		<nav id="navigation " class="bg-primary"  >
+			 
+			<div class="bg-primary">
+				<a href="#home" class="scroll"> dfsdf</a>
+			</div>
+			 
+		</nav> -->
 
-
-		<nav id="navigation">
+		<nav id="navigation" class="lg_nav">
 			<a href="#home" class="scroll">Chordiya Grinding Mills</a>
 			<!-- <a href="#home" class="scroll"><img class="logo" alt='logo' src='images/logo1.png'></a> -->
-			<ul id="menu">
+			<ul id="menu" class="menu_box">
 				<li>
 					<a href="#home" class="scroll">Home</a>
 				</li>
@@ -152,7 +168,7 @@
 		</nav>
 
 		<div id="profile">
-			<div class="title">
+			<!-- <div class="title">
 				<div class="container">
 					<section class="cbp-so-section">
 						<div class="sixteen columns cbp-so-side cbp-so-side-left">
@@ -161,7 +177,7 @@
 
 					</section>
 				</div>
-			</div>
+			</div> -->
 			<div class="background-pat">
 				<div class="container">
 					<!-- <section class="cbp-so-section">
@@ -1104,7 +1120,15 @@
 
 
 
-
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "100%";
+		}
+		
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
 
 	<!-- JAVASCRIPT
     ================================================== -->
