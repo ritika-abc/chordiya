@@ -2248,3 +2248,6 @@
 .navbar-dark .navbar-text a:focus {
     color: #fff
 }
+.text-center{
+    text-align: center !important;
+}

@@ -1394,7 +1394,7 @@
 	margin: 0 auto;
 	width: 100%;
 	margin-top:4px;
-	background: url('../images/team1.jpg') no-repeat top center;
+	background: url('../images/1.jpg') no-repeat top center;
 	background-size:cover;	
 	height:500px;
 	overflow:hidden;
@@ -1404,7 +1404,7 @@
 	margin: 0 auto;
 	width: 100%;
 	margin-top:4px;
-	background: url('../images/team2.jpg') no-repeat top center;
+	background: url('../images/2.jpg') no-repeat top center;
 	background-size: cover;	
 	height:500px;
 	overflow:hidden;
@@ -2945,4 +2945,26 @@ a.link-blog:hover{
 		 
 		/* display: none; */
 	}
+}
+.service_box{
+	display: flex;
+	flex-wrap: wrap;
+justify-content: space-around;
+}
+.service_box>.service_card{
+	width: 25%;
+	padding: 20px;
+	text-align: center;
+	flex: 200px;
+}
+
+.d-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box_flex{
+	margin: 5px;
+	flex: 50px;
+	width: 300px;
+	border: 1px dashed  rgba(204, 204, 204, 0.753);
 }
