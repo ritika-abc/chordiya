@@ -2946,6 +2946,16 @@ a.link-blog:hover{
 		/* display: none; */
 	}
 }
+@media screen and (max-width:576px) {
+	.lg_box_icon{
+		 
+		display: none;
+	}
+	.menu_box{
+		 
+		/* display: none; */
+	}
+}
 .service_box{
 	display: flex;
 	flex-wrap: wrap;
@@ -2961,10 +2971,11 @@ justify-content: space-around;
 .d-flex{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .box_flex{
 	margin: 5px;
-	flex: 50px;
+	/* flex: 50px; */
 	width: 300px;
 	border: 1px dashed  rgba(204, 204, 204, 0.753);
 }
