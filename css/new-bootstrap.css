@@ -94,10 +94,17 @@
 .fs-6 {
     font-size: 1rem !important
 }
+
+.fw-bold {
+    font-weight: 700 !important
+}
 .p-0 {
     padding: 0 !important
 }
 
+.text-white{
+    color: white !important;
+}
 .p-1 {
     padding: .25rem !important
 }
